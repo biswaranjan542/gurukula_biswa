@@ -1,0 +1,10 @@
+com\gurukula\testCases\BaseClassForLoginLogoutestCase.class
+com\gurukula\testCases\TC_SearchBranch_003.class
+com\gurukula\pageObjects\CreateEditSearchBranch.class
+com\gurukula\utilities\ReadConfig.class
+com\gurukula\pageObjects\Loginpage.class
+com\gurukula\testCases\TC_LoginTest_001.class
+com\gurukula\testCases\BaseClass.class
+com\gurukula\testCases\TC_CreateBranch_002.class
+com\gurukula\pageObjects\Homepage.class
+com\gurukula\pageObjects\CreateEditBranchForm.class
