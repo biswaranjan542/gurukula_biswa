@@ -11,7 +11,7 @@ import com.gurukula.pageObjects.Homepage;
 
 
  
-public class TC_SearchBranch_003  extends BaseClass {
+public class TC_SearchBranch_004  extends BaseClass {
 public String bybranchname = "Usharanidas";
 public String bybranchcode = "11052011";
 public String bybranchID  = "6";

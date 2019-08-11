@@ -12,7 +12,7 @@ import com.gurukula.pageObjects.Homepage;
 
 
  
-public class TC_CreateBranch_002  extends BaseClass {
+public class TC_CreateBranch_003  extends BaseClass {
 public String branchname = "Usharanidas";
 public String branchcode = "11052011";
 

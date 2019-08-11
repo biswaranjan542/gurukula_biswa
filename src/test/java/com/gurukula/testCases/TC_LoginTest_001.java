@@ -52,14 +52,14 @@ public class TC_LoginTest_001  extends BaseClassForLoginLogoutestCase {
 
 		{
 			Assert.assertTrue(true);
-			//System.out.println("I am passed");
+
 		
 		}
 		
 		else
 		{
 			Assert.assertTrue(false);
-			//System.out.println("I am failed");
+
 		}
 		
 		

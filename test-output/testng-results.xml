@@ -1,84 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Gurukulav0.1" duration-ms="114040" started-at="2019-08-10T18:03:20Z" finished-at="2019-08-10T18:05:14Z">
+  <suite name="Default suite" duration-ms="10121" started-at="2019-08-11T00:34:26Z" finished-at="2019-08-11T00:34:36Z">
     <groups>
     </groups>
-    <test name="Gurukulav0.1" duration-ms="114040" started-at="2019-08-10T18:03:20Z" finished-at="2019-08-10T18:05:14Z">
-      <class name="com.gurukula.testCases.TC_SearchBranch_003">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gurukula.testCases.TC_SearchBranch_003@343f4d3d]" name="setup" is-config="true" duration-ms="45376" started-at="2019-08-10T18:04:11Z" finished-at="2019-08-10T18:04:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="SearchBranch()[pri:1, instance:com.gurukula.testCases.TC_SearchBranch_003@343f4d3d]" name="SearchBranch" duration-ms="16733" started-at="2019-08-10T18:04:56Z" finished-at="2019-08-10T18:05:13Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at com.gurukula.testCases.TC_SearchBranch_003.SearchBranch(TC_SearchBranch_003.java:64)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchBranch -->
-      </class> <!-- com.gurukula.testCases.TC_SearchBranch_003 -->
+    <test name="Default test" duration-ms="10121" started-at="2019-08-11T00:34:26Z" finished-at="2019-08-11T00:34:36Z">
       <class name="com.gurukula.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gurukula.testCases.TC_LoginTest_001@42e26948]" name="setup" is-config="true" duration-ms="17503" started-at="2019-08-10T18:03:20Z" finished-at="2019-08-10T18:03:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gurukula.testCases.TC_LoginTest_001@7d9d1a19]" name="setup" is-config="true" duration-ms="6458" started-at="2019-08-11T00:34:26Z" finished-at="2019-08-11T00:34:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.gurukula.testCases.TC_LoginTest_001@42e26948]" name="loginTest" duration-ms="12337" started-at="2019-08-10T18:03:38Z" finished-at="2019-08-10T18:03:50Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.gurukula.testCases.TC_LoginTest_001@7d9d1a19]" name="loginTest" duration-ms="3243" started-at="2019-08-11T00:34:32Z" finished-at="2019-08-11T00:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:com.gurukula.testCases.TC_LoginTest_001@42e26948]" name="logout" duration-ms="566" started-at="2019-08-10T18:05:13Z" finished-at="2019-08-10T18:05:14Z">
+        <test-method status="PASS" signature="logout()[pri:2, instance:com.gurukula.testCases.TC_LoginTest_001@7d9d1a19]" name="logout" duration-ms="373" started-at="2019-08-11T00:34:36Z" finished-at="2019-08-11T00:34:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
       </class> <!-- com.gurukula.testCases.TC_LoginTest_001 -->
-      <class name="com.gurukula.testCases.TC_CreateBranch_002">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gurukula.testCases.TC_CreateBranch_002@57baeedf]" name="setup" is-config="true" duration-ms="16239" started-at="2019-08-10T18:03:50Z" finished-at="2019-08-10T18:04:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateBranch()[pri:1, instance:com.gurukula.testCases.TC_CreateBranch_002@57baeedf]" name="CreateBranch" duration-ms="4929" started-at="2019-08-10T18:04:06Z" finished-at="2019-08-10T18:04:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateBranch -->
-      </class> <!-- com.gurukula.testCases.TC_CreateBranch_002 -->
-    </test> <!-- Gurukulav0.1 -->
-  </suite> <!-- Gurukulav0.1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

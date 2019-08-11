@@ -42,12 +42,12 @@ public class BaseClassForLoginLogoutestCase {
 		 
 	 }
 	 
-	 /*@AfterClass
+	 @AfterClass
 	 public void tearDown()
 	 {
 		 driver.quit();
 	 }
-	 */
+	 
 	 
 	 		
 	 

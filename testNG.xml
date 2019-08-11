@@ -4,7 +4,9 @@
 
 <suite name="Gurukulav0.1">
 
-
+	<listeners>
+	<listener class-name ="com.gurukula.utilities.Reporting" />
+	</listeners>
 
 	<test name="Gurukulav0.1">
 
