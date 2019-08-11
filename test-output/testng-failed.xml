@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gurukula.testCases.TC_007_DeleteBranch">
+      <class name="com.gurukula.testCases.TC_004_SearchBranch">
         <methods>
-          <include name="DeleteBranch"/>
+          <include name="SearchBranch"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.gurukula.testCases.TC_007_DeleteBranch -->
+      </class> <!-- com.gurukula.testCases.TC_004_SearchBranch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

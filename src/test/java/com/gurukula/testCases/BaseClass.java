@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.gurukula.pageObjects.Homepage;
 import com.gurukula.pageObjects.Loginpage;
 import com.gurukula.utilities.ReadConfig;
 
@@ -49,12 +50,15 @@ public class BaseClass {
 		 
 	 }
 	 
-	/* @AfterClass
+	@AfterClass
 	 public void tearDown()
 	 {
-		 driver.quit();
+		Homepage hp = new Homepage(driver);
+		hp.clickAccount();		
+		hp.Selectitemlogout(); 
+		driver.quit();
 	 }
-	 */
+
 	 
 	 
 	 		
