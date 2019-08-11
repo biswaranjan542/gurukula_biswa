@@ -11,7 +11,7 @@ import com.gurukula.pageObjects.Homepage;
 
 
  
-public class TC_SearchBranch_004  extends BaseClass {
+public class TC_004_SearchBranch  extends BaseClass {
 public String bybranchname = "Usharanidas";
 public String bybranchcode = "11052011";
 public String bybranchID  = "6";
@@ -56,13 +56,13 @@ public String bybranchID  = "6";
 		if (statusBranchname == true && statusBranchcode == true && statusBranchID == true)
 		{
 			Assert.assertTrue(true);
-			//System.out.println("The test case is passed");
+
 		}
 		
 		else
 		{
 			Assert.assertTrue(false);
-			//System.out.println("The test case is failed");
+
 		}
 
 		

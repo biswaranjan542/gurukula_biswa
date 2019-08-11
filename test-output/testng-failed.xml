@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Gurukulav0.1]">
-  <test thread-count="5" name="Gurukulav0.1(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gurukula.testCases.TC_SearchBranch_003">
+      <class name="com.gurukula.testCases.TC_007_DeleteBranch">
         <methods>
-          <include name="SearchBranch"/>
+          <include name="DeleteBranch"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.gurukula.testCases.TC_SearchBranch_003 -->
+      </class> <!-- com.gurukula.testCases.TC_007_DeleteBranch -->
     </classes>
-  </test> <!-- Gurukulav0.1(failed) -->
-</suite> <!-- Failed suite [Gurukulav0.1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

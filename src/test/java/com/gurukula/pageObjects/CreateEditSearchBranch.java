@@ -37,8 +37,17 @@ public class CreateEditSearchBranch {
 	@CacheLookup
 	WebElement btnSearch;
 	
+	
+	@FindBy(xpath="//span[contains(text(),'Back')]")
+	@CacheLookup
+	WebElement btnBack;
+	
+	
+	
 	List<WebElement> rows ;
 	int rowcount ;
+	
+	
 	
 	
 
@@ -67,6 +76,11 @@ public class CreateEditSearchBranch {
 	public void btnSearch()
 	{
 		btnSearch.click();
+	}
+	
+	public void clickBtnback()
+	{
+		btnBack.click();
 	}
 	
 	
@@ -157,9 +171,9 @@ public class CreateEditSearchBranch {
 	{
 		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 
+		boolean status = false;
 		int rowcount = rows.size();
 		//getting the ID of the last row
-		//
 		int ExpectedID = Integer.parseInt(ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr[" + rowcount + "]/td[1]")).getText());
 
 		for (int i= 1; i<=rowcount; i++)
@@ -168,25 +182,121 @@ public class CreateEditSearchBranch {
 			int ActualID= Integer.parseInt(ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[1]")).getText());		
 			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
 			String ActuaCodeName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[3]")).getText();
+			System.out.println(ActuaCodeName + ActuaBranchName);
 			
 			if ( (ActualID == ExpectedID) && (ActuaBranchName.equalsIgnoreCase(ActuaBranchName)) && (ActuaCodeName.equalsIgnoreCase(BranchCode)))
 			{
-				return true;
+				status = true;
+				break;
 	
 			}
 			
-			break;
 			
 		}
-		return false;
+		return status;
 		
 		
 		
 	}
+	
+	
+	public  boolean ViewBranchByname(String ExpectedBranchName) throws InterruptedException
+	{
+		boolean status = false ;
+		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBranchName + "')]//following-sibling::td//button[@ui-sref=\"branchDetail({id:branch.id})\"]")).click();
+		String ActualBranchName = ldriver.findElement(By.xpath("//span[text()='Name']//parent::td//following-sibling::td//input[@type='text']")).getText();
 
+		
+		if (ActualBranchName.equalsIgnoreCase(ExpectedBranchName))
+		{
+			status = true;
+					
+		}
 
+		return status;
+		
+	}
+	
+	
+	
+	public  void clickEdit(String ExpectedBrNametochange) 
+	{
+
+		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBrNametochange + "')]//following-sibling::td//button[@ng-click='showUpdate(branch.id)']")).click();
+
+		
+	}
+	
+	public  void clickDelete(String ExpecteNameToDelete) 
+	{
+
+		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpecteNameToDelete + "')]//following-sibling::td//button[@ng-click='delete(branch.id)']")).click();
+
+		
+	}
 
 	
+	public boolean checkDeletedBranch(String BranchName)
+	{
+		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+
+		int rowcount = rows.size();
+		boolean status = true;
+		
+		for (int i= 1; i<=rowcount; i++)		
+		{
+			
+			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
+			System.out.println(ActuaBranchName);
+			if  (ActuaBranchName.equalsIgnoreCase(BranchName))
+			{
+				status= false;
+				break;
+			}
+			
+			
+			
+		}
+		return status;
+		
+		
+		
+	}
+	
+	
+	public boolean checkUpdatedBranch(String BranchName, String BranchCode)
+	{
+		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+
+		int rowcount = rows.size();
+
+		boolean status = false;
+		for (int i= 1; i<=rowcount; i++)
+		{
+
+		
+			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
+			String ActuaCodeName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[3]")).getText();
+			System.out.println(ActuaCodeName + ActuaBranchName);
+			
+			if (  (ActuaBranchName.equalsIgnoreCase(ActuaBranchName)) && (ActuaCodeName.equalsIgnoreCase(BranchCode)))
+			{
+				status = true;
+				break;
+	
+			}					
+			
+		}
+		
+		
+		return status;
+		
+		
+		
+	}
+	
+
+
 
 	
 	

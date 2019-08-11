@@ -9,7 +9,7 @@ import com.gurukula.pageObjects.Homepage;
 import com.gurukula.pageObjects.Loginpage;
 
  
-public class TC_LoginTest_001  extends BaseClassForLoginLogoutestCase {
+public class TC_001_LoginTest  extends BaseClassForLoginLogoutestCase {
 	
 
 
@@ -41,11 +41,6 @@ public class TC_LoginTest_001  extends BaseClassForLoginLogoutestCase {
 		String ExpecteConfdMsg = "You are logged in as user "+"\"" + username + "\""+ ".";
 		String Welcomemsg = lp.Welcomemsg.getText();
 		
-				
-		System.out.println(ExpecteConfdMsg);
-		System.out.println(ActualConfMsg);
-		System.out.println(Welcomemsg);
-
 			
 		if (ActualConfMsg.equalsIgnoreCase(ExpecteConfdMsg))
 		//(Welcomemsg.equalsIgnoreCase("Welcome to Gurukula!")) 	
@@ -69,10 +64,7 @@ public class TC_LoginTest_001  extends BaseClassForLoginLogoutestCase {
 
 	public void logout() {
 		
-		Homepage hp = new Homepage(driver);
-		hp.clickAccount();
-		
-		hp.Selectitemlogout();
+
 		
 		
 

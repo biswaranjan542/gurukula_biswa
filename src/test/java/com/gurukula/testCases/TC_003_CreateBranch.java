@@ -12,8 +12,8 @@ import com.gurukula.pageObjects.Homepage;
 
 
  
-public class TC_CreateBranch_003  extends BaseClass {
-public String branchname = "Usharanidas";
+public class TC_003_CreateBranch  extends BaseClass {
+public String branchname = "Amsterdam";
 public String branchcode = "11052011";
 
 
@@ -34,9 +34,14 @@ public String branchcode = "11052011";
 		cbf.clickSave();
 		
 		//verifying if branch added or not		
-		boolean isExist = cb.checkExistanceOfBranch("Ushara", "1232323");
+		boolean isExist = cb.checkExistanceOfBranch(branchname, branchcode);
 		
 		if (isExist == true)
+		{
+			Assert.assertTrue(true);
+		}
+		
+		if (isExist == false)
 		{
 			Assert.assertTrue(true);
 		}

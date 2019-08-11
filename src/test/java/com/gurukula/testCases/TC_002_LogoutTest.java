@@ -9,7 +9,7 @@ import com.gurukula.pageObjects.Homepage;
 import com.gurukula.pageObjects.Loginpage;
 
  
-public class TC_LogoutTest_002  extends BaseClassForLoginLogoutestCase {
+public class TC_002_LogoutTest  extends BaseClassForLoginLogoutestCase {
 	
 
 

@@ -35,6 +35,7 @@ public class BaseClass {
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		 driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		 logger = Logger.getLogger("Gurukulav0.1");
 		 PropertyConfigurator.configure("log4j.properties");
 		 driver.get(baseURL);
@@ -48,11 +49,12 @@ public class BaseClass {
 		 
 	 }
 	 
-	 @AfterClass
+	/* @AfterClass
 	 public void tearDown()
 	 {
 		 driver.quit();
 	 }
+	 */
 	 
 	 
 	 		

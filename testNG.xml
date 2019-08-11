@@ -5,16 +5,20 @@
 <suite name="Gurukulav0.1">
 
 	<listeners>
-	<listener class-name ="com.gurukula.utilities.Reporting" />
+	<listener class-name ="com.gurukula.utilities.Reporting"></listener>
 	</listeners>
 
 	<test name="Gurukulav0.1">
 
 		<classes>
-			<class name="com.gurukula.testCases.TC_LoginTest_001" />
-			<!-- class name="com.gurukula.testCases.TC_CreateBranch_002" /> -->
-			<!-- class name="com.gurukula.testCases.TC_SearchBranch_003" />  -->
-
+			<class name="com.gurukula.testCases.TC_001_LoginTest" />
+			<class name="com.gurukula.testCases.TC_002_LogoutTest" />
+			<class name="com.gurukula.testCases.TC_003_CreateBranch" />
+			<class name="com.gurukula.testCases.TC_004_SearchBranch" />
+			<class name="com.gurukula.testCases.TC_005_Viewbranch" />
+			<class name="com.gurukula.testCases.TC_006_Updatebranch" />
+			<class name="com.gurukula.testCases.TC_007_DeleteBranch" />
+			
 
 		</classes>
 

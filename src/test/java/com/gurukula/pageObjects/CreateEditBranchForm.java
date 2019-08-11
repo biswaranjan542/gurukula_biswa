@@ -37,12 +37,14 @@ public class CreateEditBranchForm {
 
 	public void SetBranchname(String BranchName)
 	{
+		txtName.click();
 		txtName.sendKeys(BranchName);
 	}
 	
 	
 	public void SetBranhcode(String BranchCode)
 	{
+		txtCode.click();
 		txtCode.sendKeys(BranchCode);
 	}
 		
@@ -52,7 +54,17 @@ public class CreateEditBranchForm {
 		btnSave.click();
 	}
 	
+	
+	public void clearBranchName()
+	{
+		txtName.clear();
+	}
 
+	public void clearCode()
+	{
+		txtCode.clear();
+	}
+	
 
 	
 	
