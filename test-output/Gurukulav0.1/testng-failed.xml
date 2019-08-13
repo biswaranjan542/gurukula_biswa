@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Gurukulav0.1]">
+  <listeners>
+    <listener class-name="com.gurukula.utilities.Reporting"/>
+  </listeners>
   <test thread-count="5" name="Gurukulav0.1(failed)">
     <classes>
-      <class name="com.gurukula.testCases.TC_SearchBranch_003">
+      <class name="com.gurukula.testCases.TC_004_SearchBranch">
         <methods>
           <include name="SearchBranch"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.gurukula.testCases.TC_SearchBranch_003 -->
+      </class> <!-- com.gurukula.testCases.TC_004_SearchBranch -->
+      <class name="com.gurukula.testCases.TC_006_Updatebranch">
+        <methods>
+          <include name="updateBranch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_006_Updatebranch -->
+      <class name="com.gurukula.testCases.TC_007_DeleteBranch">
+        <methods>
+          <include name="DeleteBranch"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_007_DeleteBranch -->
+      <class name="com.gurukula.testCases.TC_005_Viewbranch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewBranch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_005_Viewbranch -->
     </classes>
   </test> <!-- Gurukulav0.1(failed) -->
 </suite> <!-- Failed suite [Gurukulav0.1] -->

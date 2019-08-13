@@ -8,7 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import org.openqa.selenium.support.ui.Select;
+
 
 
 public class CreateEditSearchBranch {
@@ -19,6 +21,7 @@ public class CreateEditSearchBranch {
 	{
 		ldriver = rdriver;
 		PageFactory.initElements(ldriver, this);
+		//PageFactory.initElements(new AjaxElementLocatorFactory(ldriver, 15), this);
 		
 	}
 	
@@ -40,11 +43,9 @@ public class CreateEditSearchBranch {
 	
 	@FindBy(xpath="//span[contains(text(),'Back')]")
 	@CacheLookup
-	WebElement btnBack;
+	WebElement btnBack;	
+
 	
-	
-	
-	List<WebElement> rows ;
 	int rowcount ;
 	
 	
@@ -88,7 +89,7 @@ public class CreateEditSearchBranch {
 	{
 		
 		boolean status1 = true;
-		rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+		List<WebElement> rows  = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 		rowcount= rows.size();
 		
 		for (int i= 1; i<=rowcount; i++)
@@ -114,7 +115,7 @@ public class CreateEditSearchBranch {
 	{
 
 		boolean status2 = true;
-		rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 		rowcount= rows.size();
 		
 		for (int i= 1; i<=rowcount; i++)
@@ -141,7 +142,7 @@ public class CreateEditSearchBranch {
 	{
 
 		boolean status3 = true;
-		rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 		rowcount= rows.size();
 		
 		for (int i= 1; i<=rowcount; i++)
@@ -169,6 +170,8 @@ public class CreateEditSearchBranch {
 	
 	public boolean checkExistanceOfBranch(String BranchName, String BranchCode)
 	{
+		
+		ldriver.navigate().refresh();
 		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 
 		boolean status = false;
@@ -222,6 +225,8 @@ public class CreateEditSearchBranch {
 	public  void clickEdit(String ExpectedBrNametochange) 
 	{
 
+		
+		//Synchronisation.SyncWaitforelementobeclicable(ldriver, ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBrNametochange + "')]//following-sibling::td//button[@ng-click='showUpdate(branch.id)']")), 6).click();
 		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBrNametochange + "')]//following-sibling::td//button[@ng-click='showUpdate(branch.id)']")).click();
 
 		
@@ -232,22 +237,29 @@ public class CreateEditSearchBranch {
 
 		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpecteNameToDelete + "')]//following-sibling::td//button[@ng-click='delete(branch.id)']")).click();
 
+		//Synchronisation.SyncWaitforelementobeclicable(ldriver, ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpecteNameToDelete + "')]//following-sibling::td//button[@ng-click='delete(branch.id)']")), 15).click();
 		
 	}
 
 	
 	public boolean checkDeletedBranch(String BranchName)
-	{
+	{	
+		
+		ldriver.navigate().refresh();
 		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+			
 
-		int rowcount = rows.size();
+		rowcount = rows.size();
+		
 		boolean status = true;
 		
 		for (int i= 1; i<=rowcount; i++)		
 		{
 			
 			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
-			System.out.println(ActuaBranchName);
+			//String ActuaBranchName = Synchronisation.SyncWaitforelementobeVisible(ldriver, ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")), 10).getText();
+			//ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
+			//System.out.println(ActuaBranchName);
 			if  (ActuaBranchName.equalsIgnoreCase(BranchName))
 			{
 				status= false;
@@ -257,6 +269,7 @@ public class CreateEditSearchBranch {
 			
 			
 		}
+
 		return status;
 		
 		
@@ -266,6 +279,7 @@ public class CreateEditSearchBranch {
 	
 	public boolean checkUpdatedBranch(String BranchName, String BranchCode)
 	{
+		ldriver.navigate().refresh();
 		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 
 		int rowcount = rows.size();

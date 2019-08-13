@@ -34,7 +34,9 @@ public String bybranchname = "Rotterdam";
 		//Clicking Delete
 		CreateEditSearchBranch cb = new CreateEditSearchBranch(driver);
 		cb.clickDelete(bybranchname);
-		Thread.sleep(3000);
+		
+
+		
 		
 		
 		

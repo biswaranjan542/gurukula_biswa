@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 
 
@@ -16,12 +17,13 @@ public class CreateEditBranchForm {
 	{
 		ldriver = rdriver;
 		PageFactory.initElements(ldriver, this);
+		//PageFactory.initElements(new AjaxElementLocatorFactory(ldriver, 15), this);
 		
 	}
 	
 
 	
-	@FindBy(name="name")
+	@FindBy(xpath="//form[@name = 'editForm']//div[@class='modal-body']//div[@class='form-group']//input[@name='name']")
 	@CacheLookup
 	WebElement txtName;
 	
@@ -37,8 +39,9 @@ public class CreateEditBranchForm {
 
 	public void SetBranchname(String BranchName)
 	{
-		txtName.click();
+		//txtName.click();
 		txtName.sendKeys(BranchName);
+
 	}
 	
 	
