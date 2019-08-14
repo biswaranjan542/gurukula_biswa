@@ -60,15 +60,5 @@ public class TC_001_LoginTest  extends BaseClassForLoginLogoutestCase {
 		
 	}
 		
-	@Test(priority=2)
-
-	public void logout() {
-		
-
-		
-		
-
-		
-	}
-
+	
 }

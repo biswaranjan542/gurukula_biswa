@@ -15,7 +15,7 @@ public class TC_006_Updatebranch  extends BaseClass {
 	
 public String bybranchname = "Amsterdam";
 public String newbranchname = "Rotterdam";
-public String newbranchcode = "23233232";
+public String newbranchcode = "11052011";
 public String bybranchID  = "6";
 
 

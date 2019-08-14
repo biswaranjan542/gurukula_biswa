@@ -29,7 +29,9 @@ public String branchcode = "11052011";
 		CreateEditSearchBranch cb = new CreateEditSearchBranch(driver);
 		cb.clickbtnCreateBranch();
 		CreateEditBranchForm cbf = new CreateEditBranchForm(driver);
+		cbf.clearBranchName();
 		cbf.SetBranchname(branchname);
+		cbf.clearCode();
 		cbf.SetBranhcode(branchcode);
 		cbf.clickSave();
 		

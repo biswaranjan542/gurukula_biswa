@@ -174,7 +174,7 @@ public class CreateEditSearchBranch {
 		ldriver.navigate().refresh();
 		List<WebElement> rows = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
 
-		boolean status = false;
+		boolean status4 = false;
 		int rowcount = rows.size();
 		//getting the ID of the last row
 		int ExpectedID = Integer.parseInt(ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr[" + rowcount + "]/td[1]")).getText());
@@ -189,34 +189,36 @@ public class CreateEditSearchBranch {
 			
 			if ( (ActualID == ExpectedID) && (ActuaBranchName.equalsIgnoreCase(ActuaBranchName)) && (ActuaCodeName.equalsIgnoreCase(BranchCode)))
 			{
-				status = true;
+				status4 = true;
 				break;
 	
 			}
 			
 			
+			
 		}
-		return status;
+		return status4;
 		
 		
 		
 	}
 	
 	
-	public  boolean ViewBranchByname(String ExpectedBranchName) throws InterruptedException
+	public  boolean ViewBranchByname(String ExpectedBranchName) 
 	{
-		boolean status = false ;
+		boolean status5 = false ;
 		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBranchName + "')]//following-sibling::td//button[@ui-sref=\"branchDetail({id:branch.id})\"]")).click();
 		String ActualBranchName = ldriver.findElement(By.xpath("//span[text()='Name']//parent::td//following-sibling::td//input[@type='text']")).getText();
 
 		
 		if (ActualBranchName.equalsIgnoreCase(ExpectedBranchName))
 		{
-			status = true;
+			status5 = true;
+			
 					
 		}
 
-		return status;
+		return status5;
 		
 	}
 	
@@ -251,7 +253,7 @@ public class CreateEditSearchBranch {
 
 		rowcount = rows.size();
 		
-		boolean status = true;
+		boolean status6 = true;
 		
 		for (int i= 1; i<=rowcount; i++)		
 		{
@@ -262,7 +264,7 @@ public class CreateEditSearchBranch {
 			//System.out.println(ActuaBranchName);
 			if  (ActuaBranchName.equalsIgnoreCase(BranchName))
 			{
-				status= false;
+				status6= false;
 				break;
 			}
 			
@@ -270,7 +272,7 @@ public class CreateEditSearchBranch {
 			
 		}
 
-		return status;
+		return status6;
 		
 		
 		
@@ -284,7 +286,7 @@ public class CreateEditSearchBranch {
 
 		int rowcount = rows.size();
 
-		boolean status = false;
+		boolean status7 = false;
 		for (int i= 1; i<=rowcount; i++)
 		{
 
@@ -295,7 +297,7 @@ public class CreateEditSearchBranch {
 			
 			if (  (ActuaBranchName.equalsIgnoreCase(ActuaBranchName)) && (ActuaCodeName.equalsIgnoreCase(BranchCode)))
 			{
-				status = true;
+				status7 = true;
 				break;
 	
 			}					
@@ -303,7 +305,7 @@ public class CreateEditSearchBranch {
 		}
 		
 		
-		return status;
+		return status7;
 		
 		
 		

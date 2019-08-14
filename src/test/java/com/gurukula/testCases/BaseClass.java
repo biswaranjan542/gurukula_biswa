@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -32,11 +33,16 @@ public class BaseClass {
 	 {
 	
 		 System.setProperty("webdriver.chrome.driver", rc.getchromepath());
-		 driver = new ChromeDriver();
+		 ChromeOptions options = new ChromeOptions();
+         options.addArguments("--disable-gpu");
+         options.addArguments("--disable-browser-side-navigation");
+         
+		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
 		 driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		 driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+
 		 logger = Logger.getLogger("Gurukulav0.1");
 		 PropertyConfigurator.configure("log4j.properties");
 		 driver.get(baseURL);

@@ -20,15 +20,15 @@ public class ConfirmDeleteOperation {
 	{
 		ldriver = rdriver;
 		PageFactory.initElements(ldriver, this);
-		PageFactory.initElements(new AjaxElementLocatorFactory(ldriver, 15), this);
+		//PageFactory.initElements(new AjaxElementLocatorFactory(ldriver, 15), this);
 		
 	}
 	
 
 	
-	//@FindBy(xpath="//span[text()='Delete']")
-	//@FindBy(xpath="//p[contains(text(),'Are you sure you want to delete Branch')]//parent::div[@class='modal-body']//following-sibling::div[@class='modal-footer']//button[@type='submit']")
-	@FindBy(xpath="//button[@class='btn btn-danger']//span[@class='ng-scope'][contains(text(),'Delete')]")
+
+	
+	@FindBy(xpath="//form[@name = 'deleteForm']//div[@class='modal-footer']//button[@type='submit']")
 	@CacheLookup
 	WebElement btnDelete;
 	
@@ -36,6 +36,7 @@ public class ConfirmDeleteOperation {
 	public void ClickBtnDelete() 
 		
 	{
+		
 		btnDelete.click();
 		
 	}
