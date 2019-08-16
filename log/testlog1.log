@@ -230,3 +230,50 @@
 2019-08-14 19:50:26,416 [main] INFO Gurukulav0.1 - Singing in
 2019-08-14 19:50:36,835 [main] INFO Gurukulav0.1 - logging in
 2019-08-14 19:50:37,515 [main] INFO Gurukulav0.1 - logging out
+2019-08-16 02:07:42,568 [main] INFO Gurukulav0.1 - Landing on the branchpage
+2019-08-16 02:07:43,059 [main] INFO Gurukulav0.1 - Viewing the branchbyname
+2019-08-16 02:07:53,420 [main] INFO Gurukulav0.1 - Landing on the branchpage
+2019-08-16 02:07:53,907 [main] INFO Gurukulav0.1 - Clicking Edit
+2019-08-16 02:07:54,274 [main] INFO Gurukulav0.1 - updating the branchbyname
+2019-08-16 02:07:55,086 [main] INFO Gurukulav0.1 - verifying the updated ID,  branchname and code
+2019-08-16 02:07:57,251 [main] INFO Gurukulav0.1 - Updated value reflected
+2019-08-16 02:08:30,003 [main] INFO Gurukulav0.1 - Click entiies
+2019-08-16 02:08:30,444 [main] INFO Gurukulav0.1 - Clik branch
+2019-08-16 02:08:30,539 [main] INFO Gurukulav0.1 - Creating branch
+2019-08-16 02:08:31,666 [main] INFO Gurukulav0.1 - Branch Created
+2019-08-16 02:08:31,666 [main] INFO Gurukulav0.1 - verifying if branch added or not
+2019-08-16 02:08:34,487 [main] INFO Gurukulav0.1 - Brannch is displayed the list
+2019-08-16 02:08:41,471 [main] INFO Gurukulav0.1 - Landing on the branchpage
+2019-08-16 02:08:41,967 [main] INFO Gurukulav0.1 - Searching by branchchname
+2019-08-16 02:08:45,572 [main] INFO Gurukulav0.1 - Searching by branchcode
+2019-08-16 02:08:48,910 [main] INFO Gurukulav0.1 - Searching functionality working
+2019-08-16 02:08:55,391 [main] INFO Gurukulav0.1 - Clicking Link
+2019-08-16 02:08:55,609 [main] INFO Gurukulav0.1 - Entering username
+2019-08-16 02:08:55,784 [main] INFO Gurukulav0.1 - Entering password
+2019-08-16 02:08:55,896 [main] INFO Gurukulav0.1 - Singing in
+2019-08-16 02:09:02,598 [main] INFO Gurukulav0.1 - logging in
+2019-08-16 02:09:03,017 [main] INFO Gurukulav0.1 - logging out
+2019-08-16 02:29:41,151 [main] INFO Gurukulav0.1 - Click entiies
+2019-08-16 02:29:41,255 [main] INFO Gurukulav0.1 - Clik branch
+2019-08-16 02:29:41,375 [main] INFO Gurukulav0.1 - Creating branch
+2019-08-16 02:29:42,572 [main] INFO Gurukulav0.1 - Branch Created
+2019-08-16 02:29:42,573 [main] INFO Gurukulav0.1 - verifying if branch added or not
+2019-08-16 02:29:45,804 [main] INFO Gurukulav0.1 - Brannch is displayed the list
+2019-08-16 02:29:45,810 [main] INFO Gurukulav0.1 - Click entiies
+2019-08-16 02:29:45,911 [main] INFO Gurukulav0.1 - Clik branch
+2019-08-16 02:29:45,998 [main] INFO Gurukulav0.1 - Creating branch
+2019-08-16 02:29:46,875 [main] INFO Gurukulav0.1 - Branch Created
+2019-08-16 02:29:46,875 [main] INFO Gurukulav0.1 - verifying if branch added or not
+2019-08-16 02:29:49,782 [main] INFO Gurukulav0.1 - Brannch is displayed the list
+2019-08-16 02:34:24,309 [main] INFO Gurukulav0.1 - Click entiies
+2019-08-16 02:34:24,549 [main] INFO Gurukulav0.1 - Clik branch
+2019-08-16 02:34:24,657 [main] INFO Gurukulav0.1 - Creating branch
+2019-08-16 02:34:25,882 [main] INFO Gurukulav0.1 - Branch Created
+2019-08-16 02:34:25,883 [main] INFO Gurukulav0.1 - verifying if branch added or not
+2019-08-16 02:34:29,387 [main] INFO Gurukulav0.1 - Brannch is displayed the list
+2019-08-16 02:34:29,394 [main] INFO Gurukulav0.1 - Click entiies
+2019-08-16 02:34:29,505 [main] INFO Gurukulav0.1 - Clik branch
+2019-08-16 02:34:29,606 [main] INFO Gurukulav0.1 - Creating branch
+2019-08-16 02:34:30,520 [main] INFO Gurukulav0.1 - Branch Created
+2019-08-16 02:34:30,521 [main] INFO Gurukulav0.1 - verifying if branch added or not
+2019-08-16 02:34:33,666 [main] INFO Gurukulav0.1 - Brannch is displayed the list

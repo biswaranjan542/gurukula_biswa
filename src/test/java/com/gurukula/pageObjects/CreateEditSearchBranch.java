@@ -96,7 +96,7 @@ public class CreateEditSearchBranch {
 		{
 	
 			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
-			System.out.println(ActuaBranchName);			
+
 			if (!ActuaBranchName.equalsIgnoreCase(Expectedbrname))
 			{
 				status1 = false;
@@ -122,7 +122,6 @@ public class CreateEditSearchBranch {
 		{
 	
 			String ActuaBranchcode = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[3]")).getText();
-			System.out.println(ActuaBranchcode);			
 			if (!ActuaBranchcode.equalsIgnoreCase(Expectedbrcode))
 			{
 				status2 = false;
@@ -149,7 +148,7 @@ public class CreateEditSearchBranch {
 		{
 	
 			String ActuaBranchID = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[1]")).getText();
-			System.out.println(ActuaBranchID);	
+
 			if (!ActuaBranchID.equalsIgnoreCase(ExpectedbrID))
 			{
 				status3 = false;

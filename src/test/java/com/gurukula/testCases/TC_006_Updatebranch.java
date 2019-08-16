@@ -2,6 +2,7 @@ package com.gurukula.testCases;
 
 
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,9 @@ public String bybranchID  = "6";
 	@Test
 	public void updateBranch() throws InterruptedException 	
 	{
-		//Landing on the branchpage
+
+	
+		logger.info("Landing on the branchpage");
 		Homepage hp = new Homepage(driver);
 		hp.clickEntities();
 		hp.Selectitembranch();
@@ -31,13 +34,14 @@ public String bybranchID  = "6";
 		
 	
 		
-		//Clicking Edit
+	
+		logger.info("Clicking Edit");
 		CreateEditSearchBranch cb = new CreateEditSearchBranch(driver);
 		cb.clickEdit(bybranchname);
 		
 		
 		
-		//updating the branchbyname
+		logger.info("updating the branchbyname");
 		CreateEditBranchForm cbf = new CreateEditBranchForm(driver);
 		cbf.clearBranchName();
 		cbf.SetBranchname(newbranchname);
@@ -45,19 +49,21 @@ public String bybranchID  = "6";
 		cbf.SetBranhcode(newbranchcode);
 		cbf.clickSave();
 		
-		//verifying the updated ID,  branchname and code
-		
+		//
+		logger.info("verifying the updated ID,  branchname and code");
 		Boolean isexist = cb.checkUpdatedBranch(newbranchname, newbranchcode);
 
 		if (isexist==true)
 		{
 			Assert.assertTrue(true);
+			logger.info("Updated value reflected");
 	
 		}
 		
 		else 
 		{
 			Assert.assertTrue(false);
+			logger.info("Updated value not reflected");
 	
 		}
 

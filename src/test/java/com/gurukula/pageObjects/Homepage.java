@@ -34,9 +34,18 @@ public class Homepage {
 	@CacheLookup
 	WebElement Entitieslink ;
 	
+
+	
 	@FindBy(xpath="	//ul[@class='dropdown-menu']//li/a[@ui-sref=\"branch\"]")
 	@CacheLookup
 	WebElement dropdownBranch ;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu']//li[@ui-sref-active='active']//a[@ui-sref='staff']")
+	@CacheLookup
+	WebElement dropdownStaff ;
+	
+	
+	
 	
 
 	
@@ -71,6 +80,14 @@ public class Homepage {
 	
 	{
 		dropdownBranch.click();
+		
+	}
+	
+	
+	public void Selectitemstaff()
+	
+	{
+		dropdownStaff.click();
 		
 	}
 	

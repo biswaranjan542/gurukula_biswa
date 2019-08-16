@@ -50,12 +50,14 @@ public String bybranchname = "Rotterdam";
 		if (isexist == true)
 		{
 			Assert.assertTrue(true);
+			logger.info("Deleted");
 	
 		}
 		
 		if (isexist == false)
 		{
 			Assert.assertTrue(false);
+			logger.info("Not deleted");
 	
 		}
 

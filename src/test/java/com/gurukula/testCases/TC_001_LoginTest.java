@@ -43,7 +43,7 @@ public class TC_001_LoginTest  extends BaseClassForLoginLogoutestCase {
 		
 			
 		if (ActualConfMsg.equalsIgnoreCase(ExpecteConfdMsg))
-		//(Welcomemsg.equalsIgnoreCase("Welcome to Gurukula!")) 	
+
 
 		{
 			Assert.assertTrue(true);

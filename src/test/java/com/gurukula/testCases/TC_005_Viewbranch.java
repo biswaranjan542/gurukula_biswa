@@ -21,15 +21,16 @@ public String bybranchID  = "6";
 	@Test
 	public void viewBranch() throws InterruptedException 	
 	{
-		//Landing on the branchpage
+		
+		logger.info("Landing on the branchpage");
 		Homepage hp = new Homepage(driver);
 		hp.clickEntities();
 		hp.Selectitembranch();
 		
 		CreateEditSearchBranch cb = new CreateEditSearchBranch(driver);
 		
-		//Viewing the branchbyname
-		
+
+		logger.info("Viewing the branchbyname");
 		boolean isexist = cb.ViewBranchByname(bybranchname);
 		cb.clickBtnback();
 		
@@ -38,11 +39,14 @@ public String bybranchID  = "6";
 		if (isexist == true)
 		{
 			Assert.assertTrue(true);
-	
+			logger.info("Viewing functionality working");
+			
+			
 		}
 		if (isexist == false)
 		{
 			Assert.assertTrue(false);
+			logger.info("Viewing functionality not working");
 	
 		}
 	

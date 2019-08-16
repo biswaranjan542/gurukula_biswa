@@ -18,6 +18,8 @@
 			<class name="com.gurukula.testCases.TC_005_Viewbranch" />
 			<class name="com.gurukula.testCases.TC_006_Updatebranch" />
 			<class name="com.gurukula.testCases.TC_007_DeleteBranch" />
+			<class name="com.gurukula.testCases.TC_008_CreateStaff" />			
+			
 			
 
 		</classes>

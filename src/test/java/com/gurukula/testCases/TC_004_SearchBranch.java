@@ -20,13 +20,14 @@ public String bybranchcode = "11052011";
 	@Test(priority=1)
 	public void SearchBranch() throws InterruptedException 	
 	{
-		//Landing on the branchpage
+		logger.info("Landing on the branchpage");
 		Homepage hp = new Homepage(driver);
 		hp.clickEntities();
 		hp.Selectitembranch();
 		
 	
-		//Searching by branchchname
+
+		logger.info("Searching by branchchname");
 		CreateEditSearchBranch cb = new CreateEditSearchBranch(driver);
 		cb.clearSearch();
 		cb.SetSearchQuery(bybranchname);
@@ -34,7 +35,8 @@ public String bybranchcode = "11052011";
 		Thread.sleep(3000);
 		boolean statusBranchname = cb.SearchbyBranchName(bybranchname);
 		
-		//Searching by branchcode
+	
+		logger.info("Searching by branchcode");
 		cb.clearSearch();
 		cb.SetSearchQuery(bybranchcode);
 		cb.btnSearch();
@@ -47,12 +49,15 @@ public String bybranchcode = "11052011";
 		if (statusBranchname == true && statusBranchcode == true)
 		{
 			Assert.assertTrue(true);
+			logger.info("Searching functionality working");
+			
 
 		}
 		
 		else
 		{
 			Assert.assertTrue(false);
+			logger.info("Searching functionality not working");
 
 		}
 
