@@ -277,3 +277,528 @@
 2019-08-16 02:34:30,520 - Gurukulav0.1 -INFO - Branch Created
 2019-08-16 02:34:30,521 - Gurukulav0.1 -INFO - verifying if branch added or not
 2019-08-16 02:34:33,666 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-17 13:51:44,579 - Gurukulav0.1 -INFO - Click entiies
+2019-08-17 13:51:44,894 - Gurukulav0.1 -INFO - Clik branch
+2019-08-17 13:51:45,021 - Gurukulav0.1 -INFO - Creating branch
+2019-08-17 13:51:46,040 - Gurukulav0.1 -INFO - Branch Created
+2019-08-17 13:51:46,040 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-17 13:51:47,432 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-17 13:51:47,439 - Gurukulav0.1 -INFO - Click entiies
+2019-08-17 13:51:47,533 - Gurukulav0.1 -INFO - Clik branch
+2019-08-17 13:51:47,626 - Gurukulav0.1 -INFO - Creating branch
+2019-08-17 13:51:48,464 - Gurukulav0.1 -INFO - Branch Created
+2019-08-17 13:51:48,465 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-17 13:51:49,522 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-17 15:05:08,293 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:16:50,354 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:16:50,941 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:16:51,415 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:21:45,883 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:21:46,474 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:21:46,962 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:50:09,408 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:50:09,976 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:50:10,400 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:50:10,524 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 15:52:02,174 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:52:02,849 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:52:03,366 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:52:03,507 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 15:54:43,434 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:54:44,018 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:54:44,425 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:54:44,556 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 15:55:42,397 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 15:55:42,993 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 15:55:42,995 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 15:55:43,455 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 16:03:35,862 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:03:36,432 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:03:36,436 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:03:37,786 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 16:09:41,315 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:09:42,023 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:09:42,025 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:09:44,588 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 16:11:21,262 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:11:21,840 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:11:21,843 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:11:22,392 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 16:12:45,898 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:12:46,715 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:12:46,724 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:14:01,235 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:14:01,902 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:14:01,922 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:15:45,332 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:15:46,026 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:15:46,047 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:18:12,155 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:18:12,794 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:18:12,809 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:22:50,611 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:22:51,275 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:22:52,021 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:22:52,156 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 16:23:42,731 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 16:23:43,421 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 16:23:43,448 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 16:23:44,274 - Gurukulav0.1 -INFO - Getting the ID of last row
+2019-08-17 17:03:47,460 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:03:48,225 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:03:48,228 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:03:48,762 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:03:48,890 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:08:43,886 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:08:44,403 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:08:44,406 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:08:44,881 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:08:44,996 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:12:20,159 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:12:21,579 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:12:21,582 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:12:22,710 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:12:55,557 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:12:56,099 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:12:56,102 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:12:56,469 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:14:28,509 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:14:28,987 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:14:28,990 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:14:29,393 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:14:29,518 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:14:54,089 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:14:54,567 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:14:54,571 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:14:54,990 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:14:55,114 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:15:15,674 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:15:16,226 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:15:16,229 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:15:16,648 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:15:16,775 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 17:15:42,456 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 17:15:42,989 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 17:15:42,992 - Gurukulav0.1 -INFO - Getting the ID of last row of thge current page
+2019-08-17 17:15:43,393 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 17:15:43,524 - Gurukulav0.1 -INFO - Getting the ID of last row of thge next page
+2019-08-17 18:08:10,917 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 18:08:11,432 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 18:08:11,873 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:08:11,949 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:08:12,033 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:08:12,299 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:08:12,353 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:08:12,405 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:08:12,662 - Gurukulav0.1 -INFO - navigation next is correctly working
+2019-08-17 18:14:20,678 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 18:14:21,211 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 18:16:01,585 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:18:40,324 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:18:57,668 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:21:07,180 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:21:37,178 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:22:23,986 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:25:12,977 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 18:25:13,498 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 18:25:13,881 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:25:13,952 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:25:14,033 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:25:14,307 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 18:25:14,366 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 18:25:14,418 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 18:25:14,668 - Gurukulav0.1 -INFO - navigation next is correctly working
+2019-08-17 19:07:20,532 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:07:21,867 - Gurukulav0.1 -INFO - Getting the ID of first row of the next page
+2019-08-17 19:07:21,921 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:11:39,582 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:11:40,783 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:11:40,830 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:14:04,068 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:14:05,613 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:14:05,668 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:14:05,738 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:14:06,797 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:14:06,951 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:14:06,988 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:14:07,060 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:14:07,288 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:14:07,355 - Gurukulav0.1 -INFO - navigation prev is correctly working
+2019-08-17 19:15:20,280 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:15:20,805 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:15:21,241 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 19:15:21,329 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:15:21,418 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 19:15:21,693 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 19:15:21,761 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:15:21,827 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 19:16:58,335 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:16:58,884 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:16:59,316 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 19:16:59,394 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:16:59,478 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 19:25:13,135 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:25:14,435 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:25:14,489 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:25:14,570 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:25:14,821 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:25:14,898 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:25:14,940 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:25:15,011 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:25:15,221 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:25:15,301 - Gurukulav0.1 -INFO - navigation prev is correctly working
+2019-08-17 19:26:14,557 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:26:15,152 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:26:15,627 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 19:26:15,708 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:26:15,815 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 19:26:16,077 - Gurukulav0.1 -INFO - Getting the ID of last row of the current page
+2019-08-17 19:26:16,153 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:26:16,231 - Gurukulav0.1 -INFO - Getting the ID of first row of thge next page
+2019-08-17 19:26:16,482 - Gurukulav0.1 -INFO - navigation next is correctly working
+2019-08-17 19:26:46,081 - Gurukulav0.1 -INFO - Landing on the staffpage 
+2019-08-17 19:26:47,781 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:26:47,830 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:26:47,903 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:26:48,113 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:26:48,199 - Gurukulav0.1 -INFO - Getting the ID of first row of the current page
+2019-08-17 19:26:48,248 - Gurukulav0.1 -INFO - Clicking the next navigation link
+2019-08-17 19:26:48,316 - Gurukulav0.1 -INFO - Getting the rowcount of currentpage
+2019-08-17 19:26:48,533 - Gurukulav0.1 -INFO - Getting the ID of last row of the previous page
+2019-08-17 19:26:48,599 - Gurukulav0.1 -INFO - navigation prev is correctly working
+2019-08-17 23:40:52,979 - Gurukulav0.1 -INFO - Click entiies
+2019-08-17 23:40:53,134 - Gurukulav0.1 -INFO - Clik branch
+2019-08-17 23:40:53,255 - Gurukulav0.1 -INFO - Creating branch
+2019-08-17 23:40:54,262 - Gurukulav0.1 -INFO - Branch Created
+2019-08-17 23:40:54,262 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-17 23:40:55,324 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-17 23:40:55,331 - Gurukulav0.1 -INFO - Click entiies
+2019-08-17 23:40:55,421 - Gurukulav0.1 -INFO - Clik branch
+2019-08-17 23:40:55,511 - Gurukulav0.1 -INFO - Creating branch
+2019-08-17 23:40:56,328 - Gurukulav0.1 -INFO - Branch Created
+2019-08-17 23:40:56,329 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-17 23:40:57,369 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 00:05:15,792 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 00:05:15,908 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 00:05:16,043 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 00:05:17,053 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 00:05:17,054 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 00:05:18,377 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 00:05:18,423 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 00:05:18,501 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 00:05:18,584 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 00:05:19,421 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 00:05:19,422 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 00:05:21,996 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 00:05:29,657 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:05:30,203 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 00:05:38,149 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:05:39,494 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 00:05:39,786 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 00:05:40,602 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 00:05:41,413 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 00:05:50,926 - Gurukulav0.1 -INFO - Deleted
+2019-08-18 00:06:13,048 - Gurukulav0.1 -INFO - logging in
+2019-08-18 00:06:13,441 - Gurukulav0.1 -INFO - logging out
+2019-08-18 00:06:24,206 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:06:24,742 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 00:06:28,229 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 00:06:31,532 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 00:06:39,759 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 00:06:40,223 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 00:06:40,536 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 00:06:40,743 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 00:16:03,322 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:16:03,837 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 00:18:29,595 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:18:30,080 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 00:21:37,491 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:21:37,976 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 00:21:38,223 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 00:21:39,045 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 00:21:40,054 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 00:32:05,305 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 00:32:05,500 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 00:32:05,708 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 00:32:06,906 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 00:32:06,907 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 00:32:08,747 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 00:32:08,772 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 00:32:08,871 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 00:32:08,969 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 00:32:09,901 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 00:32:09,901 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 00:32:11,517 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 00:32:19,650 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:32:20,206 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 00:32:30,841 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:32:31,442 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 00:32:31,737 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 00:32:32,509 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 00:32:33,449 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 00:33:08,526 - Gurukulav0.1 -INFO - logging in
+2019-08-18 00:33:09,063 - Gurukulav0.1 -INFO - logging out
+2019-08-18 00:33:19,356 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 00:33:20,917 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 00:33:24,468 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 00:33:28,912 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 00:33:36,214 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 00:33:36,567 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 00:33:36,817 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 00:33:36,974 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:26:01,389 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:26:01,925 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:26:02,209 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:26:03,352 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:26:03,352 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:26:04,390 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:26:04,415 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:26:04,512 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:26:04,595 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:26:05,393 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:26:05,393 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:26:06,174 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:26:16,419 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:26:17,336 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 19:26:31,042 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:26:31,562 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 19:26:31,847 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 19:26:32,521 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 19:26:33,292 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 19:26:45,575 - Gurukulav0.1 -INFO - Deleted
+2019-08-18 19:27:11,481 - Gurukulav0.1 -INFO - logging in
+2019-08-18 19:27:11,884 - Gurukulav0.1 -INFO - logging out
+2019-08-18 19:27:32,221 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:27:42,772 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 19:27:52,074 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 19:28:00,708 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 19:28:07,879 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:28:08,150 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:28:08,546 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:28:08,688 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:32:35,363 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:32:35,546 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:32:35,653 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:32:36,556 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:32:36,557 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:32:37,396 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:32:37,421 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:32:37,501 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:32:37,584 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:32:50,118 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:32:50,793 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 19:33:03,662 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:33:04,161 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 19:33:04,701 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 19:33:05,514 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 19:33:06,635 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 19:33:55,710 - Gurukulav0.1 -INFO - logging in
+2019-08-18 19:33:56,121 - Gurukulav0.1 -INFO - logging out
+2019-08-18 19:34:06,310 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:34:06,820 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 19:34:10,340 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 19:34:13,582 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 19:34:21,304 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:34:21,528 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:34:21,730 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:34:21,861 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:38:07,885 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:38:08,000 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:38:08,253 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:38:10,040 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:38:10,040 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:38:11,098 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:38:11,123 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:38:11,226 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:38:11,356 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:38:12,224 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:38:12,224 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:38:13,245 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:38:25,829 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:38:26,440 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 19:38:36,199 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:38:36,775 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 19:38:37,056 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 19:38:37,817 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 19:38:38,671 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 19:39:39,307 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:39:39,681 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:39:39,830 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:39:39,943 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:39:54,535 - Gurukulav0.1 -INFO - logging in
+2019-08-18 19:40:00,367 - Gurukulav0.1 -INFO - logging out
+2019-08-18 19:40:19,646 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:40:20,194 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 19:40:23,751 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 19:40:26,994 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 19:46:17,113 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:46:17,256 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:46:17,363 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:46:18,396 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:46:18,397 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:46:19,613 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:46:19,637 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:46:19,721 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:46:19,807 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:46:20,553 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:46:20,554 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:46:21,756 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:47:30,804 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:47:30,902 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:47:31,006 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:47:31,900 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:47:31,901 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:47:33,440 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:47:33,456 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:47:33,559 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:47:33,643 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:47:34,379 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:47:34,380 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:47:35,871 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:47:46,189 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:47:46,642 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 19:47:57,103 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:47:57,688 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 19:47:58,078 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 19:47:58,940 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 19:47:59,799 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 19:48:29,399 - Gurukulav0.1 -INFO - logging in
+2019-08-18 19:48:29,896 - Gurukulav0.1 -INFO - logging out
+2019-08-18 19:51:01,963 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:51:02,076 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:51:02,171 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:51:03,140 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:51:03,141 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:51:05,226 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:51:05,257 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:51:05,380 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:51:05,466 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:51:06,191 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:51:06,192 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:51:07,839 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:51:52,849 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:51:52,981 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:51:53,092 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:51:54,264 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:51:54,265 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:51:56,549 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:51:56,565 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:51:56,714 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:51:56,805 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:51:57,512 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:51:57,513 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:51:59,418 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:52:11,754 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:52:12,265 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 19:52:20,934 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 19:52:21,388 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 19:52:21,708 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 19:52:22,524 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 19:52:23,461 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 19:55:32,237 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:55:32,495 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:55:32,688 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:55:32,828 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:56:22,546 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:56:22,920 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:56:23,072 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:56:23,180 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 19:56:29,873 - Gurukulav0.1 -INFO - logging in
+2019-08-18 19:56:30,370 - Gurukulav0.1 -INFO - logging out
+2019-08-18 19:57:05,785 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:57:05,899 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:57:05,999 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:57:07,087 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:57:07,088 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:57:09,323 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:57:09,339 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:57:09,432 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:57:09,529 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:57:10,324 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:57:10,325 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:57:12,438 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:57:37,949 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:57:38,073 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:57:38,178 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:57:39,207 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:57:39,207 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:57:41,461 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:57:41,492 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 19:57:41,590 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 19:57:41,670 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 19:57:42,479 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 19:57:42,481 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 19:57:44,839 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 19:57:50,544 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:59:55,350 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 19:59:55,519 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 19:59:55,701 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 19:59:55,828 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 20:00:06,343 - Gurukulav0.1 -INFO - logging in
+2019-08-18 20:00:06,963 - Gurukulav0.1 -INFO - logging out
+2019-08-18 20:00:16,356 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 20:00:16,479 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 20:00:16,583 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 20:00:17,665 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 20:00:17,667 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 20:00:20,498 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 20:00:20,498 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 20:00:20,595 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 20:00:20,683 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 20:00:21,507 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 20:00:21,509 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 20:00:24,020 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 20:01:26,017 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 20:01:26,378 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 20:01:26,547 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 20:01:26,693 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 20:01:34,927 - Gurukulav0.1 -INFO - logging in
+2019-08-18 20:01:38,162 - Gurukulav0.1 -INFO - logging out
+2019-08-18 20:01:47,060 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 20:01:47,172 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 20:01:47,304 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 20:01:48,463 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 20:01:48,464 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 20:01:51,677 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 20:01:51,682 - Gurukulav0.1 -INFO - Click entiies
+2019-08-18 20:01:51,776 - Gurukulav0.1 -INFO - Clik branch
+2019-08-18 20:01:51,873 - Gurukulav0.1 -INFO - Creating branch
+2019-08-18 20:01:52,677 - Gurukulav0.1 -INFO - Branch Created
+2019-08-18 20:01:52,679 - Gurukulav0.1 -INFO - verifying if branch added or not
+2019-08-18 20:01:55,599 - Gurukulav0.1 -INFO - Brannch is displayed the list
+2019-08-18 20:02:02,754 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 20:02:03,215 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 20:02:06,808 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 20:02:10,024 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 20:02:18,574 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 20:02:19,074 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 20:02:28,565 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 20:02:29,035 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 20:02:29,408 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 20:02:30,123 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 20:02:31,133 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 22:16:11,347 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 22:16:11,945 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 22:16:12,483 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 22:16:30,206 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 22:16:45,471 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 22:19:54,014 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 22:19:55,621 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 22:19:55,973 - Gurukulav0.1 -INFO - updating the branchbyname
+2019-08-18 22:19:56,831 - Gurukulav0.1 -INFO - verifying the updated ID,  branchname and code
+2019-08-18 22:19:58,887 - Gurukulav0.1 -INFO - Updated value reflected
+2019-08-18 22:29:46,451 - Gurukulav0.1 -INFO - Clicking Link
+2019-08-18 22:29:46,743 - Gurukulav0.1 -INFO - Entering username
+2019-08-18 22:29:47,004 - Gurukulav0.1 -INFO - Entering password
+2019-08-18 22:29:47,175 - Gurukulav0.1 -INFO - Singing in
+2019-08-18 22:29:56,668 - Gurukulav0.1 -INFO - logging in
+2019-08-18 22:29:57,411 - Gurukulav0.1 -INFO - logging out
+2019-08-18 22:30:55,270 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 22:30:55,797 - Gurukulav0.1 -INFO - Searching by branchchname
+2019-08-18 22:31:05,319 - Gurukulav0.1 -INFO - Searching by branchcode
+2019-08-18 22:31:08,521 - Gurukulav0.1 -INFO - Searching functionality working
+2019-08-18 22:31:18,722 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 22:31:19,364 - Gurukulav0.1 -INFO - Viewing the branchbyname
+2019-08-18 22:31:33,872 - Gurukulav0.1 -INFO - Landing on the branchpage
+2019-08-18 22:31:34,384 - Gurukulav0.1 -INFO - Clicking Edit
+2019-08-18 22:33:29,285 - Gurukulav0.1 -INFO - Deleted

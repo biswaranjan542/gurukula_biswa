@@ -20,7 +20,7 @@ import org.testng.annotations.DataProvider;
 
 public class TC_003_CreateBranch  extends BaseClass {
 
-	@Test(dataProvider = "StaffDetails")
+	@Test(dataProvider = "BranchDetails")
 	public void CreateBranch(String branchname, String branchcode ) 	
 	{
 		
@@ -59,7 +59,7 @@ public class TC_003_CreateBranch  extends BaseClass {
 		
 	}	
 	
-	@DataProvider(name="StaffDetails")
+	@DataProvider(name="BranchDetails")
 	String [][] getData() throws IOException
 	
 	{

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Gurukulav0.1]">
+  <listeners>
+    <listener class-name="com.gurukula.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Gurukulav0.1(failed)">
+    <classes>
+      <class name="com.gurukula.testCases.TC_007_DeleteBranch">
+        <methods>
+          <include name="DeleteBranch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_007_DeleteBranch -->
+      <class name="com.gurukula.testCases.TC_008_CreateStaff">
+        <methods>
+          <include name="CreateBranch" invocation-numbers="1 2 3 4 5 7 8 9 10 11 12 13 14 16 17 18 19"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_008_CreateStaff -->
+      <class name="com.gurukula.testCases.TC_005_Viewbranch">
+        <methods>
+          <include name="viewBranch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.gurukula.testCases.TC_005_Viewbranch -->
+    </classes>
+  </test> <!-- Gurukulav0.1(failed) -->
+</suite> <!-- Failed suite [Gurukulav0.1] -->

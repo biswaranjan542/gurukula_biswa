@@ -227,7 +227,7 @@ public class CreateEditSearchBranch {
 	{
 
 		
-		//Synchronisation.SyncWaitforelementobeclicable(ldriver, ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBrNametochange + "')]//following-sibling::td//button[@ng-click='showUpdate(branch.id)']")), 6).click();
+
 		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpectedBrNametochange + "')]//following-sibling::td//button[@ng-click='showUpdate(branch.id)']")).click();
 
 		
@@ -238,7 +238,6 @@ public class CreateEditSearchBranch {
 
 		ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpecteNameToDelete + "')]//following-sibling::td//button[@ng-click='delete(branch.id)']")).click();
 
-		//Synchronisation.SyncWaitforelementobeclicable(ldriver, ldriver.findElement(By.xpath("//td[contains(text(),'" + ExpecteNameToDelete + "')]//following-sibling::td//button[@ng-click='delete(branch.id)']")), 15).click();
 		
 	}
 
@@ -258,9 +257,6 @@ public class CreateEditSearchBranch {
 		{
 			
 			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
-			//String ActuaBranchName = Synchronisation.SyncWaitforelementobeVisible(ldriver, ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")), 10).getText();
-			//ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
-			//System.out.println(ActuaBranchName);
 			if  (ActuaBranchName.equalsIgnoreCase(BranchName))
 			{
 				status6= false;
@@ -291,9 +287,7 @@ public class CreateEditSearchBranch {
 
 		
 			String ActuaBranchName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[2]")).getText();
-			String ActuaCodeName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[3]")).getText();
-			System.out.println(ActuaCodeName + ActuaBranchName);
-			
+			String ActuaCodeName = ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody/tr["+ i +"]/td[3]")).getText();	
 			if (  (ActuaBranchName.equalsIgnoreCase(ActuaBranchName)) && (ActuaCodeName.equalsIgnoreCase(BranchCode)))
 			{
 				status7 = true;

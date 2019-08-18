@@ -2,7 +2,7 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Gurukulav0.1">
+<suite name="Gurukulav0.1"  >
 
 	<listeners>
 	<listener class-name ="com.gurukula.utilities.Reporting"></listener>
@@ -18,7 +18,8 @@
 			<class name="com.gurukula.testCases.TC_005_Viewbranch" />
 			<class name="com.gurukula.testCases.TC_006_Updatebranch" />
 			<class name="com.gurukula.testCases.TC_007_DeleteBranch" />
-			<class name="com.gurukula.testCases.TC_008_CreateStaff" />			
+			<class name="com.gurukula.testCases.TC_008_CreateStaff" />	
+		
 			
 			
 

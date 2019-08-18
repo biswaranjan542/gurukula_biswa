@@ -13,7 +13,7 @@ public class TC_001_LoginTest  extends BaseClassForLoginLogoutestCase {
 	
 
 
-	@Test(priority=1)
+	@Test
 	public void loginTest() throws InterruptedException
 	{
 		driver.get(baseURL);

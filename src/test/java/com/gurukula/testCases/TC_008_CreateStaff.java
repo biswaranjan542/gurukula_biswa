@@ -17,8 +17,7 @@ import com.gurukula.utilities.XLUtils;
 
  
 public class TC_008_CreateStaff  extends BaseClass {
-//public String staffName = "Alex";
-//public String staffBranchname = "Amsterdam";
+
 
 
 	@Test(dataProvider = "StaffDetails")
@@ -38,14 +37,15 @@ public class TC_008_CreateStaff  extends BaseClass {
 		csf.selectBranchName(staffBranchname);
 		csf.clickSave();
 		
-		Thread.sleep(3000);
+
 	}	
 		
 		@DataProvider(name="StaffDetails")
 		String [][] getData() throws IOException
 		
 		{
-			String path=System.getProperty("user.dir")+"\\src\\test\\java\\com\\gurukula\\testData\\StaffDetails.xlsx";
+			//String path=System.getProperty("user.dir")+"\\src\\test\\java\\com\\gurukula\\testData\\StaffDetails.xlsx";
+			String path=System.getProperty("user.dir")+"/src/test/java/com/gurukula/testData/StaffDetails.xlsx";
 			
 			int rownum=XLUtils.getRowCount(path, "Sheet1");
 			int colcount=XLUtils.getCellCount(path,"Sheet1",1);

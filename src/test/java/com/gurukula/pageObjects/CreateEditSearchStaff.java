@@ -26,10 +26,32 @@ public class CreateEditSearchStaff {
 	}
 	
 
+	@FindBy(className="table table-striped")
+	@CacheLookup	
+	WebElement stafftable;
+	
+	
+	
 	
 	@FindBy(xpath="//span[contains(text(),'Create a new Staff')]")
 	@CacheLookup
 	WebElement btnCreateStaff;
+	
+	@FindBy(xpath="//li[@ng-show=\"links['next']\"]")
+	@CacheLookup
+	public WebElement linkNextNavigation;
+	
+	@FindBy(xpath="//li[@ng-show=\"links['prev']\"]")
+	@CacheLookup
+	public WebElement linkPreviousNavigation;	
+	
+	@FindBy(xpath="//li[@ng-show=\"links['last']\"]")
+	@CacheLookup
+	public WebElement linklastNavigation;
+	
+	
+	
+	
 	
 	
 		
@@ -40,11 +62,55 @@ public class CreateEditSearchStaff {
 
 	}
 	
+	public int getRowcount()
+	{
 		
-		
+		List<WebElement> rows  = ldriver.findElements(By.xpath("//table[@class='table table-striped']//tbody/tr"));
+		int rowcount= rows.size();
+		return rowcount;
+	}
+	
+	public void clickNextNavigation()
+	{
+		linkNextNavigation.click();
 		
 	}
 	
+	
+	public int gettingLastrowId(int rowcount)
+	{
+		String last_rowvalue =ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody//tr[" + rowcount + "]//td[1]")).getText();
+		int lastrowid = Integer.parseInt(last_rowvalue);
+		return lastrowid;
+		
+	}
+	
+	
+	public int gettingfirstrowId()
+	{
+		String first_rowvalue =ldriver.findElement(By.xpath("//table[@class='table table-striped']//tbody//tr[1]//td[1]")).getText();
+		int firstrowid = Integer.parseInt(first_rowvalue);
+		return firstrowid;
+		
+	}
+	
+	
+	public void clicklastNavigation()
+	
+	{
+		linklastNavigation.click();
+	}
+
+		
+	public void clickPrevioustNavigation()
+	
+	{
+		linkPreviousNavigation.click();
+	}
+	}
+
+	
+
 
 
 

@@ -17,7 +17,7 @@ public String bybranchcode = "11052011";
 
 
 
-	@Test(priority=1)
+	@Test
 	public void SearchBranch() throws InterruptedException 	
 	{
 		logger.info("Landing on the branchpage");
